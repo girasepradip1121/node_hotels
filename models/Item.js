@@ -13,6 +13,7 @@ const itemschema=new mongoose.Schema({
         type:String
     }
 })
+//commented.....
 
 const Item=mongoose.model('Item',itemschema)
 module.exports=Item;
